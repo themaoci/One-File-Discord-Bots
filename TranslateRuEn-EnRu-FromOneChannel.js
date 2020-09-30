@@ -1,12 +1,12 @@
 /****************************
-  Transcriptor v1.0
+	Transcriptor v1.0
 	Created by TheMaoci ~2020
 ****************************/
 /* Description:
-  Allows a bot to translate messages and send embed messages to one specified channel to see translation of those messages.
+	Allows a bot to translate messages and send embed messages to one specified channel to see translation of those messages.
 	Whole script is working live and doesnt require Google API Token
-  You can easly change languages in the code below
-  PS. Yes i could grab server Id from message but who cares...
+	You can easly change languages in the code below
+	PS. Yes i could grab server Id from message but who cares...
 */
 const Discord = require('discord.js');
 const translate = require('@vitalets/google-translate-api');
